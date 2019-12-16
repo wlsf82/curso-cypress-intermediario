@@ -1,0 +1,24 @@
+{
+  "name": "curso-cypress-intermediario",
+  "version": "1.0.0",
+  "description": "Curso intermediário de automação de testes com Cypress da Escola Talking About Testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/wlsf82/curso-cypress-intermediario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/wlsf82/curso-cypress-intermediario/issues"
+  },
+  "homepage": "https://gitlab.com/wlsf82/curso-cypress-intermediario#readme",
+  "devDependencies": {
+    "cypress": "^3.7.0",
+    "faker": "^4.1.0"
+  }
+}
