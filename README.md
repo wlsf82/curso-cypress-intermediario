@@ -38,7 +38,7 @@ Execute o comando `docker run --publish 80:80 --publish 22:22 --hostname localho
 7. Cole sua chave SSH pública no campo key. O campo Title deve ser automaticamente preenchido
 8. Por fim, clique no botão Add key
 
-> Você também encontrará informações sobre como gerar a chave SSH na própria aplicação em teste a partir da seguinte URL http://localhost/help/ssh/README#generating-a-new-ssh-key-pair (**instruções em Inglês**)
+> Você também encontrará instruções sobre como gerar a chave SSH em sistema operacional Windows na própria aplicação em teste a partir da seguinte URL http://localhost/help/ssh/README#generating-a-new-ssh-key-pair (**instruções em Inglês**).
 
 ## Aula 2 - Setup do projeto de testes com Cypress
 
