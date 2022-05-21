@@ -2,10 +2,11 @@
 
 describe('Login', () => {
     it('succesfully', () => {
-        cy.login()
+        cy.gui_login()
 
-        cy.get('qa-user-avatar').should('exist')
+        cy.get('.qa-user-avatar').should('exist')
         
     });
 
 })
+
