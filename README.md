@@ -73,7 +73,7 @@ Na raiz do projeto, crie um diretório chamado `temp/`. Este diretório será ut
 
 ### Instalando o Cypress
 
-No terminal, na raiz do projeto, execute o comando `npm i cypress -D` (este comando irá instalar o Cypress como dependência de desenvolvimento, além de criar o arquivo `package-lock.json` e o diretório `node_modules/`)
+No terminal, na raiz do projeto, execute o comando `npm i cypress@9.7.0 -D` (este comando irá instalar o Cypress como dependência de desenvolvimento, além de criar o arquivo `package-lock.json` e o diretório `node_modules/`)
 
 ### Inicializando o Cypress
 
