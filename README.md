@@ -185,7 +185,7 @@ Cypress.Commands.add('logout', () => {
 
 ### Testando criação de projeto
 
-1. Para o teste de criação de projeto iremos utilizar a biblioteca `faker` para a criação de dados randômicos. No terminal, na raiz do projeto, execute o comando `npm i faker -D` (este comando irá instalar a biblioteca `faker` como dependência de desenvolvimento)
+1. Para o teste de criação de projeto iremos utilizar a biblioteca `faker` para a criação de dados randômicos. No terminal, na raiz do projeto, execute o comando `npm i faker@5.5.3 -D` (este comando irá instalar a biblioteca `faker` como dependência de desenvolvimento)
 
 2. Dentro do diretrório `cypress/integration/gui/`, crie um arquivo chamado `createProject.spec.js` com os seguintes dados:
 
