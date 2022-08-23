@@ -47,7 +47,7 @@ Execute o comando `docker run --publish 80:80 --publish 22:22 --hostname localho
 1. Acesse a URL https://gitlab.com/wlsf82/curso-cypress-intermediario
 2. Clique no botão 'Clone'
 3. Escolha uma das opções (_Clone with SSH_ ou _Clone with HTTPS_) e então clique no botão _Copy URL_ ao lado do campo da opção escolhida
-4. No terminal, no diretório onde você armazena seus projetos de software, digite `git clone [URL copiada no passo anteior] e pressione ENTER
+4. No terminal, no diretório onde você armazena seus projetos de software, digite `git clone [URL copiada no passo anteior]` e pressione ENTER
 5. Por fim, acesso o diretório do projeto recém clonado (`cd curso-cypress-intermediario/`)
 
 ### Inicializando o NPM
