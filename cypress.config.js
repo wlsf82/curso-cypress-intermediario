@@ -6,5 +6,6 @@ module.exports = defineConfig({
     // You may want to clean this up later by importing these.
     setupNodeEvents(on, config) {},
     baseUrl: 'http://localhost/',
+    experimentalSessionAndOrigin: true,
   },
 })

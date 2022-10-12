@@ -1,11 +1,20 @@
 /// <reference types="Cypress" />
 
-Cypress.Commands.add('login', () => {
-  cy.visit('users/sign_in')
+const user = Cypress.env('user_name')
+const password = Cypress.env('user_password')
 
-  cy.get("[data-qa-selector='login_field']").type(Cypress.env('user_name'))
-  cy.get("[data-qa-selector='password_field']").type(Cypress.env('user_password'))
-  cy.get("[data-qa-selector='sign_in_button']").click()
+Cypress.Commands.add('login', () => {
+  const login = () => {
+    cy.visit('users/sign_in')
+
+    cy.get("[data-qa-selector='login_field']").type(user)
+    cy.get("[data-qa-selector='password_field']").type(password, { log: false })
+    cy.get("[data-qa-selector='sign_in_button']").click()
+  }
+
+  const options = { cacheAcrossSpecs: true }
+
+  cy.session(user, login, options)
 })
 
 Cypress.Commands.add('logout', () => {

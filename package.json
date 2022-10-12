@@ -4,7 +4,8 @@
   "description": "Curso intermediário de automação de testes com Cypress da Escola Talking About Testing.",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   },
   "homepage": "https://gitlab.com/wlsf82/curso-cypress-intermediario#readme",
   "devDependencies": {
-    "cypress": "^10.7.0",
+    "cypress": "^10.10.0",
     "faker": "^4.1.0"
   }
 }
