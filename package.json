@@ -1,0 +1,23 @@
+{
+  "name": "curso-cypress-intermediario",
+  "version": "1.0.0",
+  "description": "[Curso intermediário de automação de testes com Cypress](http://talkingabouttesting.coursify.me/courses/testes-automatizados-com-cypress-intermediario) da Escola Talking About Testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielMartinsQA/curso-cypress-intermediario.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielMartinsQA/curso-cypress-intermediario/issues"
+  },
+  "homepage": "https://github.com/GabrielMartinsQA/curso-cypress-intermediario#readme",
+  "devDependencies": {
+    "cypress": "^11.0.1"
+  }
+}
