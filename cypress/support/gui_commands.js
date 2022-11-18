@@ -21,3 +21,12 @@ Cypress.Commands.add('gui_createProject', project => {
     cy.get('#project_initialize_with_readme').check()
     cy.contains('Create project').click()
 })
+
+Cypress.Commands.add('gui_createIssue', project => {
+    cy.visit(`${Cypress.env('user_name')}/${issue.project.name}/issues/new`)
+    
+    cy.get('.qa-issuable-form-title').type(issue.title)
+    cy.get('.qa-issuable-form-description').type(issue.description)
+    cy.contains('Submit issues').click()
+    // cy.contains('Create project').click()
+})
