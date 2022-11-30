@@ -28,5 +28,5 @@ Cypress.Commands.add('gui_createIssue', project => {
     cy.get('.qa-issuable-form-title').type(issue.title)
     cy.get('.qa-issuable-form-description').type(issue.description)
     cy.contains('Submit issues').click()
-    // cy.contains('Create project').click()
 })
+
